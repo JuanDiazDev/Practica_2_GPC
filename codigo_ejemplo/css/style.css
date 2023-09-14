@@ -1,31 +1,40 @@
 /* style.css */
-/* Estilos generales para la pagina */
+
+/* Estilos generales para la página */
 body {
-background-image: url('/images/santas_bibliotecas_batman.png');
-background-size: cover;
-background-repeat: no-repeat;}
+    background-image: url('/images/santas_bibliotecas_batman.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 /* Estilos generales para el formulario */
 form {
-max-width: 300px;
-margin: 0 auto;
-padding: 20px;}
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 /* Estilos para los campos de entrada de texto y contraseña */
-imput [type="text"],
-input [type="password"]{
-width: 100%;
-padding: 10px;
-margin-bottom: 10px;
-border: 1px solid #ccc;
-border-radius: 5px;}
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
 /* Estilos para el botón de enviar */
 input[type="submit"] {
-background-color: #007bff;
-color: #fff;
-padding: 10px 20px;
-border: none;
-border-radius: 5px;
-cursor: pointer;}
-/* Estilos pare e1 boton de enviar al pasar el mouse sobre 6l */
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos para el botón de enviar al pasar el mouse sobre él */
 input[type="submit"]:hover {
-background=color: #0056b3;
+    background-color: #0056b3; /* Corregido el error en la propiedad background-color */
 }
