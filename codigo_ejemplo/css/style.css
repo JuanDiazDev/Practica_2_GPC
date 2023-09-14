@@ -1,0 +1,31 @@
+/* style.css */
+/* Estilos generales para la pagina */
+body {
+background-image: url('/images/santas_bibliotecas_batman.png');
+background-size: cover;
+background-repeat: no-repeat;}
+/* Estilos generales para el formulario */
+form {
+max-width: 300px;
+margin: 0 auto;
+padding: 20px;}
+/* Estilos para los campos de entrada de texto y contraseña */
+imput [type="text"],
+input [type="password"]{
+width: 100%;
+padding: 10px;
+margin-bottom: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;}
+/* Estilos para el botón de enviar */
+input[type="submit"] {
+background-color: #007bff;
+color: #fff;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;}
+/* Estilos pare e1 boton de enviar al pasar el mouse sobre 6l */
+input[type="submit"]:hover {
+background=color: #0056b3;
+}
